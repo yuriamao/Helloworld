@@ -8,6 +8,7 @@ import java.util.ArrayList;
 public class HelloController {
     //http://localhost:8081/hello
     //@GetMapping("/hello")
+    //change
     @RequestMapping(value = "/posttest1",method = RequestMethod.POST)
     //前端参数，昵称
     public String Hello(@RequestParam(value = "id",required = false) String Nickname, String number){
